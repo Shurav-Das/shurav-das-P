@@ -47,7 +47,7 @@ const Portfolio = () => {
       title: "Shastho Surukha",
       description: "A dynamic healthcare information portal offering expert insights, service updates, and digital health innovations from the Shastho Surukha system.",
       category: "webdev",
-      image: "../src/protfolio/dbms.png",
+      image: "/protfolio/dbms.png",
       tags: ["HTML", "CSS", "PHP", "MYSQL"],
       liveUrl: "#",
       githubUrl: "#"
@@ -57,7 +57,7 @@ const Portfolio = () => {
       title: "OVHIJAN – Your Global Path",
       description: "OVHIJAN is an AI-powered platform that helps students and professionals study, work, and settle abroad through personalized recommendations, success prediction, visa guidance, scholarship matching, and career opportunities—all in one place.",
       category: "webdev",
-      image: "../src/protfolio/ovijan.jpg",
+      image: "/protfolio/ovijan.jpg",
       tags: ["React", "Laravel", "MYSQL"],
       liveUrl: "#",
       githubUrl: "#"
@@ -67,7 +67,7 @@ const Portfolio = () => {
       title: "Class Orbit",
       description: "A full-featured web-based Class Management System designed to help teachers and institutions efficiently manage classes, students, assignments, attendance, and grades. Includes an intuitive dashboard, student portal, and admin panel with real-time updates.",
       category: "webdev",
-      image: "../src/protfolio/classorbit.jpg",
+      image: "/protfolio/classorbit.jpg",
       tags: ["HTML", "CSS", "PHP", "MYSQL"],
       liveUrl: "#",
       githubUrl: "#"
@@ -78,7 +78,7 @@ const Portfolio = () => {
       title: "Plantify",
       description: "Plantify is an IoT-powered smart plant care system that monitors temperature, humidity, soil moisture, and other environmental conditions in real time. It also features an AI model that identifies plant leaf diseases from images and provides instant diagnosis, treatment recommendations, and plant care guidance to help users maintain healthy crops.",
       category: "ml",
-      image: "../src/protfolio/plantify.jpeg",
+      image: "/protfolio/plantify.jpeg",
       tags: ["ESP32", "ESP32CAM", "MQTT", "PHP", "MySQL", "JavaScript"],
       liveUrl: "#",
       githubUrl: "#"
@@ -88,7 +88,7 @@ const Portfolio = () => {
       title: "Shastho Surukha UI/UX",
       description: "A dynamic healthcare information portal offering expert insights, service updates, and digital health innovations from the Shastho Surukha system.",
       category: "uiux",
-      image: "../src/protfolio/shastho_surukha_app.jpg",
+      image: "/protfolio/shastho_surukha_app.jpg",
       tags: ["FIGMA"],
       liveUrl: "#",
       githubUrl: "#"
@@ -98,7 +98,7 @@ const Portfolio = () => {
       title: "PlateMate",
       description: "Fights food waste in Bangladesh by GPS-linking donors (homes/restaurants) to recipients (families/NGOs) for real-time donations or 50% off surprise bags.",
       category: "webdev",
-      image: "../src/protfolio/platemate.png",
+      image: "/protfolio/platemate.png",
       tags: ["React Native", "Firebase", "Maps"],
       liveUrl: "#",
       githubUrl: "#"
@@ -125,7 +125,7 @@ const certifications = [
   title: "Champion – UIU DBMS Project Show",
   issuer: "United International University (UIU)",
   description: "Achieved 1st place (Champion) at the UIU DBMS Project Show for developing an innovative database-driven software solution, demonstrating excellence in database design, implementation, and problem-solving.",
-  image: "../src/protfolio/dbms_cr.jpg",
+  image: "/protfolio/dbms_cr.jpg",
   date: "2024",
   credentialId: "Champion",
   skills: ["Database Design", "MySQL", "PHP", "Problem Solving", "Teamwork"]
@@ -135,7 +135,7 @@ const certifications = [
   title: "2nd Runner-up – MIST Inventious 4.1",
   issuer: "MIST Innovation Club, Military Institute of Science and Technology (MIST)",
   description: "Secured 2nd Runner-up at MIST Inventious 4.1 for presenting an innovative technology project, recognized for creativity, technical excellence, and real-world impact.",
-  image: "../src/protfolio/mist_cr.jpg", // Replace with your certificate image
+  image: "/protfolio/mist_cr.jpg", // Replace with your certificate image
   date: "2025",
   credentialId: "2nd Runner-up",
   skills: ["Innovation", "Project Development", "Presentation", "Problem Solving", "Teamwork"]
@@ -148,7 +148,7 @@ const certifications = [
       id: 1,
       title: "MIST INVENTIOUS 4.1 Award",
       description: "Team Phoenix the Firebird earned the prestigious Second Runner-up position in the Project Showcasing category at MIST INVENTIOUS 4.1, the national event hosted by the MIST Innovation Club. This milestone underscores our team's relentless dedication, collaborative ethos, and innovative drive.",
-      image: "../src/protfolio/mist.jpg",
+      image: "/protfolio/mist.jpg",
       category: "Second Runner-up",
       event: "MIST INVENTIOUS 4.1",
       date: "2025",
@@ -158,7 +158,7 @@ const certifications = [
       id: 2,
       title: "UIU CSE Project Show 2025 — Champions",
       description: "Team Phoenix the Firebird secured the Champion position at the UIU CSE Project Show 2025, outperforming 140+ exceptional teams. This recognizes our Shastho Surukha project, a smart healthcare problem-solving system, reflecting teamwork, dedication, and mentorship guidance.",
-      image: "../src/protfolio/dbms_cmp.png",
+      image: "/protfolio/dbms_cmp.png",
       category: "Champion",
       event: "UIU CSE Project Show 2025",
       date: "2024",
@@ -168,7 +168,7 @@ const certifications = [
       id: 3,
       title: "Honored by VC — MIST INVENTIOUS 4.1",
       description: "Fatema Yesmin Maroya and I, as Team Phoenix the Firebird, secured the Second Runner-up position in the Project Showcasing category at MIST INVENTIOUS 4.1, reflecting our dedication, teamwork, and commitment to innovation. Special thanks to our Honorable Vice Chancellor, Professor Dr. Md. Abul Kashem Mia, and United International University for their support.",
-      image: "../src/protfolio/mist_1.jpg",
+      image: "/protfolio/mist_1.jpg",
       category: "Honor",
       event: "MIST INVENTIOUS 4.1",
       date: "2025",
@@ -732,7 +732,7 @@ const certifications = [
             <div className="about-image-wrapper" data-aos="fade-right" data-aos-delay="100">
               <div className="about-image-container">
                 <img
-                  src="../src/protfolio/profile.png"
+                  src="/protfolio/profile.png"
                   alt="Shurav Das"
                   className="about-image"
                 />
@@ -820,7 +820,7 @@ const certifications = [
                 )}
 
                 <div className="about-actions">
-                  <a href="../src/protfolio/mycv.pdf" download="Shurav_Das_CV.pdf" className="btn-primary">
+                  <a href="/protfolio/mycv.pdf" download="Shurav_Das_CV.pdf" className="btn-primary">
                     {renderIcon("download", "w-5 h-5 inline mr-2")}
                     Download CV
                   </a>
